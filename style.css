@@ -122,14 +122,14 @@
     }
 
         .skill-name{
-            font-size: 3rem;
+            font-size: 3.5vw;
             text-transform: uppercase ;
             color: rgba(40,87,164,255);
         }
 
         .skill-icon{
             color: rgba(40,87,164,255);
-            font-size: 40px;
+            font-size: 3.5vw;
             margin-right: 18px;
         }
 
@@ -149,6 +149,7 @@
             border-radius: 50px 50px 50px 50px;
             background-color: #d3d3d3;
             margin: 3% 3% 3% 0%;
+            min-width: 200px;
         }
 
             .experience-color{
@@ -195,14 +196,15 @@
     }
 
         .portfolio-main-name{
-            font-size: 3rem;
+            /* font-size: 3rem; */
+            font-size: 4vw;
             text-transform: uppercase ;
             color: rgba(40,87,164,255);
         }
 
         .portfolio-icon{
             color: rgba(40,87,164,255);
-            font-size: 40px;
+            font-size: 4vw;
             margin-right: 18px;
         }
 
@@ -275,7 +277,8 @@
 
     .work-experience-title{
         text-align: center;
-        font-size: 2.5rem;
+        /* font-size: 2.5rem; */
+        font-size: 3.5vw;
         font-weight: 700;
         color: rgba(40,87,164,255);
         text-transform: uppercase;
@@ -349,7 +352,7 @@
             top: 160px;
         }
 
-/*/////////////////////////////////////////// Educatio ///////////////////////////////////  */
+/*/////////////////////////////////////////// Education ///////////////////////////////////  */
 
 #education{
     width: 85%;
@@ -474,7 +477,7 @@
         display: flex;
         justify-content: space-evenly;
         margin-top: 50px;
-        /* border: 2px solid black; */
+        margin-bottom: 50px;
     }
 
 
@@ -513,13 +516,13 @@
                 border-bottom: 2.2px solid white;
             }
 
-        .form-sub-btn-div{
-            height: auto;
-            width: auto;
-            display: flex;
-            margin-top: 50px;
-            justify-content: center;
-        }
+            .form-sub-btn-div{
+                height: auto;
+                width: auto;
+                display: flex;
+                margin-top: 50px;
+                justify-content: center;
+            }
 
             #send-mgs-button{
                 color: white;
