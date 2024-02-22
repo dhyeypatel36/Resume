@@ -119,17 +119,18 @@
         justify-content: center;
         margin-top: 1.5%;
         align-items: center;
+        font-size: 6vw;
     }
 
         .skill-name{
-            font-size: 3.5vw;
+            /* font-size: 3.5vw; */
             text-transform: uppercase ;
             color: rgba(40,87,164,255);
         }
 
         .skill-icon{
             color: rgba(40,87,164,255);
-            font-size: 3.5vw;
+            /* font-size: 3.5vw; */
             margin-right: 18px;
         }
 
@@ -138,14 +139,14 @@
         width: 80%;
         display: flex;
         justify-content: space-around;
-        margin-top: 80px;
+        margin-top: 50px;
         flex-wrap: wrap;
         margin-bottom: 50px;
     }
 
         .experience{
-            width: 20%;
-            height: 50px;
+            width: 17vw;
+            height: 7vh;
             border-radius: 50px 50px 50px 50px;
             background-color: #d3d3d3;
             margin: 3% 3% 3% 0%;
@@ -197,14 +198,14 @@
 
         .portfolio-main-name{
             /* font-size: 3rem; */
-            font-size: 4vw;
+            font-size: 6vw;
             text-transform: uppercase ;
             color: rgba(40,87,164,255);
         }
 
         .portfolio-icon{
             color: rgba(40,87,164,255);
-            font-size: 4vw;
+            font-size: 6vw;
             margin-right: 18px;
         }
 
@@ -278,7 +279,7 @@
     .work-experience-title{
         text-align: center;
         /* font-size: 2.5rem; */
-        font-size: 3.5vw;
+        font-size: 5.5vw;
         font-weight: 700;
         color: rgba(40,87,164,255);
         text-transform: uppercase;
