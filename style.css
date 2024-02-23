@@ -41,6 +41,12 @@
         margin-top: 18vh;
     }
 
+    @media screen and (max-width: 480px) {
+        .my-name{
+            margin-top: 14vh;
+        }
+    }
+
         .name{
             color: white;
             font-size: 2rem;
@@ -90,6 +96,26 @@
         background-position: center;
     }
 
+    @media screen and (max-width: 400px){
+        .my-image{
+            background-image: url(./Image/America.jpg);
+            height: 150px;
+            width: 150px;
+            border-radius: 50%;
+            border: 3px solid white;
+            background-size: cover;
+            background-position: center;
+        }
+
+        #about{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: relative;
+            top: -80px;
+        }
+    }
+
     #about p{
         width: 65%;
         font-size: 1.2rem;
@@ -97,6 +123,16 @@
         margin-top: 60px;
         margin-bottom: -60px;
     }
+
+        @media screen and (max-width: 480px) {
+            #about p {
+                width: 80%;
+                font-size: 1.2rem;
+                color: black;
+                margin-top: 60px;
+                margin-bottom: -60px;
+            }
+        }
 
 
 
@@ -119,7 +155,7 @@
         justify-content: center;
         margin-top: 1.5%;
         align-items: center;
-        font-size: 6vw;
+        font-size: 3.5vw;
     }
 
         .skill-name{
@@ -132,6 +168,21 @@
             color: rgba(40,87,164,255);
             /* font-size: 3.5vw; */
             margin-right: 18px;
+        }
+
+        @media screen and (max-width:480px) {
+            .skill-name{
+                text-transform: uppercase ;
+                color: rgba(40,87,164,255);
+                font-size: 30px;
+            }
+    
+            .skill-icon{
+                color: rgba(40,87,164,255);
+                /* font-size: 3.5vw; */
+                font-size: 30px;
+                margin-right: 18px;
+            }
         }
 
 
@@ -194,19 +245,24 @@
         align-items: center;
         margin-bottom: 35px;
         margin-top: 30px;
+        font-size: 3.5vw;
     }
 
         .portfolio-main-name{
             /* font-size: 3rem; */
-            font-size: 6vw;
             text-transform: uppercase ;
             color: rgba(40,87,164,255);
         }
 
         .portfolio-icon{
             color: rgba(40,87,164,255);
-            font-size: 6vw;
             margin-right: 18px;
+        }
+
+        @media screen and (max-width:480px) {
+            .portfolio-title{
+                font-size: 30px;
+            }
         }
 
     .portfolio-container{
@@ -292,6 +348,17 @@
             margin-right: 20px;
         }
 
+        
+        @media screen and (max-width:480px) {
+            .work-experience-title{
+                font-size: 30px;
+            }
+
+            .work-experience-icon{
+                margin-right: 10px;
+            }
+        }
+
     .work-box{
         display: flex;
         flex-direction: column;
@@ -333,6 +400,39 @@
             border-radius: 50%;
         }
 
+        /* @media screen and (max-width:650px) {
+            .details-of-work-experience::after{
+                left: 112.8%;
+                top: 50%;
+            }
+
+            .details-of-work-experience:nth-child(2n)::after{
+                left: -28%;
+            }
+        } */
+
+        @media screen and (max-width:900px) {
+            .details-of-work-experience::after{
+                left: 120%;
+                top: 45%;
+            }
+
+            .details-of-work-experience:nth-child(2n)::after{
+                left: -23%;
+            }
+        }
+
+        @media screen and (max-width:750px) {
+            .details-of-work-experience::after{
+                left: 113.8%;
+                top: 45%;
+            }
+
+            .details-of-work-experience:nth-child(2n)::after{
+                left: -24%;
+            }
+        }
+
     .timeline-divider{
         position: absolute;
         border-right: 5px dashed;
@@ -351,7 +451,9 @@
             margin-left: 3px;
             margin-top: -25px;
             top: 160px;
+            /* display: inline-block; */
         }
+
 
 /*/////////////////////////////////////////// Education ///////////////////////////////////  */
 
@@ -418,6 +520,28 @@
             left: 116.5%;
             top: 46%;
             border-radius: 50%;
+        }
+
+        @media screen and (max-width:900px) {
+            .details-of-education-experience::after{
+                left: 120%;
+                top: 45%;
+            }
+
+            .details-of-education-experience:nth-child(2n)::after{
+                left: -23%;
+            }
+        }
+
+        @media screen and (max-width:750px) {
+            .details-of-education-experience::after{
+                left: 113.8%;
+                top: 45%;
+            }
+
+            .details-of-education-experience:nth-child(2n)::after{
+                left: -24%;
+            }
         }
 
     .timeline-divider{
