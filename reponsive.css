@@ -1,0 +1,213 @@
+@media screen and (max-width: 400px){
+    .my-image{
+        background-image: url(./Image/America.jpg);
+        height: 150px;
+        width: 150px;
+        border-radius: 50%;
+        border: 3px solid white;
+        background-size: cover;
+        background-position: center;
+    }
+
+    #about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        top: -80px;
+    }
+}
+
+
+@media screen and (max-width:480px) {
+    .skill-name{
+        text-transform: uppercase ;
+        color: rgba(40,87,164,255);
+        font-size: 30px;
+    }
+
+    .skill-icon{
+        color: rgba(40,87,164,255);
+        /* font-size: 3.5vw; */
+        font-size: 30px;
+        margin-right: 18px;
+    }
+
+    #about p {
+        width: 80%;
+        font-size: 1.2rem;
+        color: black;
+        margin-top: 60px;
+        margin-bottom: -60px;
+    }
+
+    .portfolio-title{
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width:768px){
+    .contact-bottom-div{
+        flex-direction: column;	
+    }
+    
+    .input-form{
+        min-width: 100%;
+    }
+    
+    .my-all-details{
+        min-width: 100%;
+        color: white;
+        margin-top: 100px;
+    }
+}
+
+@media screen and (max-width:400px) {
+    #main-header .nav-list li a{
+        font-size: 15px;
+    }
+
+    #main-header .nav-list li{
+        margin-left: 5px;
+    }
+
+   /* .nav-list{
+        display: none;
+   } */
+
+   .my-name{
+        margin-top: 14vh;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .work-experience-title{
+        font-size: 30px;
+    }
+
+    .work-experience-icon{
+        margin-right: 10px;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .timeline-divider{
+        left: 1%;
+    }
+
+    .details-of-work-experience:nth-child(2n+1){
+        position: relative;
+        left: 5%;
+        margin: 0px;
+        width: 94.5%;
+    }
+
+    .details-of-work-experience:nth-child(2n){
+        left: 5%;
+        margin: 0px;
+        width: 94.5%;
+    }
+
+    .details-of-work-experience::after{
+        content: '';
+        display: inline-block;
+        height: 20px;
+        width: 20px;
+        background-color: #d3d3d3;
+        position: relative;
+        left: -5.5%;
+        top: 46%;
+        border-radius: 50%;
+    }
+
+    .details-of-work-experience:nth-child(2n)::after{
+        left: -5.5%;
+    }
+
+    #work-experience{
+        width: 90% !important;
+    }
+    
+}
+
+@media screen and (max-width:350px) {
+    .details-of-work-experience:nth-child(2n)::after{
+        left: -6%;
+    }
+
+    .details-of-work-experience:nth-child(2n+1)::after{
+        left: -6%;
+    }
+
+    .details-of-work-experience::after{
+        height: 15px;
+        width: 15px;
+    }
+
+    .timeline-divider{
+        border-right: 3px dashed !important;
+        border-color: rgba(148,211,253,255) !important;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    .timeline-divider{
+        left: 1%;
+    }
+
+    .details-of-education-experience:nth-child(2n+1){
+        position: relative;
+        left: 5%;
+        margin: 0px;
+        width: 94.5%;
+    }
+
+    .details-of-education-experience:nth-child(2n){
+        left: 5%;
+        margin: 0px;
+        width: 94.5%;
+    }
+
+    .details-of-education-experience::after{
+        content: '';
+        display: inline-block;
+        height: 20px;
+        width: 20px;
+        background-color: #d3d3d3;
+        position: relative;
+        left: -5.5%;
+        top: 46%;
+        border-radius: 50%;
+    }
+
+    .details-of-education-experience:nth-child(2n)::after{
+        left: -5.5%;
+    }
+
+    #education{
+        width: 90% !important;
+    }
+    
+}
+
+@media screen and (max-width:350px) {
+    .details-of-education-experience:nth-child(2n)::after{
+        left: -6%;
+    }
+
+    .details-of-education-experience:nth-child(2n+1)::after{
+        left: -6%;
+    }
+
+    .details-of-education-experience::after{
+        height: 15px;
+        width: 15px;
+    }
+
+    .timeline-divider{
+        border-right: 3px dashed !important;
+        border-color: rgba(148,211,253,255) !important;
+    }
+}

@@ -17,6 +17,30 @@
     width: 100%;
 }
 
+    /* .dropdown-list-menu-items{
+        margin: 0;
+        display: none;
+        background-color: #828470;
+        box-shadow: 0px 4px 8px 1px #535547;
+    }
+
+        .dropdown-list-menu-items ul{
+            margin: 0.2rem 0.2rem;
+            text-align: left;
+            padding: 0px 0.8rem;
+        }
+
+        .dropdown-menu:hover .dropdown-list{
+            display: block;
+            position: absolute;
+            right: 3%;
+        } */
+
+    .bars{
+        color: white;
+        font-size: 30px;
+    }
+
     #main-header .nav-list li{
         list-style: none;
         display: inline-block;
@@ -37,24 +61,8 @@
             color: lightgrey;
         }
 
-    @media screen and (max-width:400px) {
-        #main-header .nav-list li a{
-            font-size: 15px;
-        }
-
-        #main-header .nav-list li{
-            margin-left: 5px;
-        }
-    }
-
     .my-name{
         margin-top: 18vh;
-    }
-
-    @media screen and (max-width: 480px) {
-        .my-name{
-            margin-top: 14vh;
-        }
     }
 
         .name{
@@ -106,26 +114,6 @@
         background-position: center;
     }
 
-    @media screen and (max-width: 400px){
-        .my-image{
-            background-image: url(./Image/America.jpg);
-            height: 150px;
-            width: 150px;
-            border-radius: 50%;
-            border: 3px solid white;
-            background-size: cover;
-            background-position: center;
-        }
-
-        #about{
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            position: relative;
-            top: -80px;
-        }
-    }
-
     #about p{
         width: 65%;
         font-size: 1.2rem;
@@ -133,19 +121,6 @@
         margin-top: 60px;
         margin-bottom: -60px;
     }
-
-        @media screen and (max-width: 480px) {
-            #about p {
-                width: 80%;
-                font-size: 1.2rem;
-                color: black;
-                margin-top: 60px;
-                margin-bottom: -60px;
-            }
-        }
-
-
-
 
 /* /////////////////////////////////////////////////Skills///////////////////////////////////////////////////// */
 
@@ -179,22 +154,6 @@
             /* font-size: 3.5vw; */
             margin-right: 18px;
         }
-
-        @media screen and (max-width:480px) {
-            .skill-name{
-                text-transform: uppercase ;
-                color: rgba(40,87,164,255);
-                font-size: 30px;
-            }
-    
-            .skill-icon{
-                color: rgba(40,87,164,255);
-                /* font-size: 3.5vw; */
-                font-size: 30px;
-                margin-right: 18px;
-            }
-        }
-
 
     .social-skills-experience{
         width: 80%;
@@ -267,12 +226,6 @@
         .portfolio-icon{
             color: rgba(40,87,164,255);
             margin-right: 18px;
-        }
-
-        @media screen and (max-width:480px) {
-            .portfolio-title{
-                font-size: 30px;
-            }
         }
 
     .portfolio-container{
@@ -359,17 +312,6 @@
             margin-right: 20px;
         }
 
-        
-        @media screen and (max-width:480px) {
-            .work-experience-title{
-                font-size: 30px;
-            }
-
-            .work-experience-icon{
-                margin-right: 10px;
-            }
-        }
-
     .work-box{
         display: flex;
         flex-direction: column;
@@ -409,42 +351,6 @@
             left: 116.5%;
             top: 46%;
             border-radius: 50%;
-        }
-
-        @media screen and (max-width:768px) {
-            .timeline-divider{
-                left: 1%;
-            }
-
-            .details-of-work-experience:nth-child(2n+1){
-                position: relative;
-                left: 5%;
-                margin: 0px;
-                width: 92%;
-            }
-
-            .details-of-work-experience:nth-child(2n){
-                left: 5%;
-                margin: 0px;
-                width: 92%;
-            }
-
-            .details-of-work-experience::after{
-                content: '';
-                display: inline-block;
-                height: 20px;
-                width: 20px;
-                background-color: #d3d3d3;
-                position: relative;
-                left: 0;
-                top: 46%;
-                border-radius: 50%;
-            }
-
-            .details-of-work-experience:nth-child(2n)::after{
-                left: 0%;
-            }
-            
         }
 
     .timeline-divider{
@@ -536,28 +442,6 @@
             border-radius: 50%;
         }
 
-        @media screen and (max-width:900px) {
-            .details-of-education-experience::after{
-                left: 120%;
-                top: 45%;
-            }
-
-            .details-of-education-experience:nth-child(2n)::after{
-                left: -23%;
-            }
-        }
-
-        @media screen and (max-width:750px) {
-            .details-of-education-experience::after{
-                left: 113.8%;
-                top: 45%;
-            }
-
-            .details-of-education-experience:nth-child(2n)::after{
-                left: -24%;
-            }
-        }
-
     .timeline-divider{
         position: absolute;
         border-right: 5px dashed;
@@ -618,24 +502,6 @@
         margin-top: 50px;
         margin-bottom: 50px;
     }
-
-    @media screen and (max-width:768px){
-        .contact-bottom-div{
-            flex-direction: column;	
-        }
-        
-        .input-form{
-            min-width: 100%;
-        }
-        
-        .my-all-details{
-            min-width: 100%;
-            color: white;
-            margin-top: 100px;
-        }
-    }
-    
-
 
         .input-form{
             width: 40%;
