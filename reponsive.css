@@ -74,7 +74,7 @@
    .bars{
         display: inline;
         margin: 0px 0px 0px 10px;
-        border: 2px solid black;
+        /* border: 2px solid red; */
    }
 
    .bars i{
