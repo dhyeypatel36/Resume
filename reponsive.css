@@ -71,9 +71,14 @@
         margin-left: 5px;
     }
 
-   /* .nav-list{
-        display: none;
-   } */
+   .bars{
+        display: block;
+        margin: 0px 0px 0px 10px;
+   }
+
+   .nav-list{
+    display: none;
+   }
 
    .my-name{
         margin-top: 14vh;
