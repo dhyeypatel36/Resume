@@ -72,12 +72,17 @@
     }
 
    .bars{
-        display: block;
+        display: inline;
         margin: 0px 0px 0px 10px;
+        border: 2px solid black;
+   }
+
+   .bars i{
+        display: inline;
    }
 
    .nav-list{
-    display: none;
+        display: none;
    }
 
    .my-name{
