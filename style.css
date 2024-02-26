@@ -51,8 +51,8 @@
             position: absolute;
             left: 3%;
             top: 4.5%;
-            height: 10vh;
-            overflow: scroll;
+            height: 18vh;
+            /* overflow: scroll; */
         }
 
     .bars{
